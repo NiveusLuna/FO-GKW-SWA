@@ -1,0 +1,158 @@
+basename = "dom_escort_cruiser"
+verbosetooltip = "AUTOTOOLTIP-dom_escort_cruiser_borr3.odf"
+worthxp = 62
+xplevel = 3
+nextrankclass = "dom_escort_cruiser_borr4"
+nextrankxp = 57
+maxhealth = 162
+curhealth = 162
+healthrate = 0.390
+maxshields = 320
+curshields = 320
+shieldrate = 0.939
+shieldgeneratorhitpoints = 43
+engineshitpoints = 43
+weaponshitpoints = 43
+lifesupporthitpoints = 43
+sensorshitpoints = 43
+maxspecialenergy = 168
+specialenergyrate = 1.400
+attackpower = 1.000
+intrinsicvalue = 1.000
+weapon1 = "domW_escort_cruiser_borr31"
+weapon2 = "domW_escort_cruiser_borr32"
+buildtime = 108
+dilithiumcost = 342
+latinumcost = 121
+biomattercost = 37
+recycledilithium = 103
+recyclelatinum = 36
+recyclebiomatter = 11
+recycletime = 59
+weapon3 = "dom_alphawhite_bor"
+originalclass = "dom_escort_cruiser_bor"
+unitname = "S-2 Escort Cruiser"
+tooltip = "S-2 Escort Cruiser"
+race = "dominion"
+crewcost = 125
+physicsfile = "smooth_physics_140.odf"
+trekphysicsfile = "smooth_physics_140.odf"
+weaponhardpoints1 = "hp01" "hp05" "hp09" "hp10"
+weaponhardpoints2 = "hp01"
+weaponhardpoints3 = "hp01"
+weapon4 = "passive_weaponrefit"
+weaponhardpoints4 = "root"
+enginestargethardpoints = "hp17" "hp18" "hp19" "hp20" "hp21" "hp22"
+lifesupporttargethardpoints = "hp09" "hp10" "hp11" "hp12" "hp13" "hp14" "hp15" "hp16"
+weaponstargethardpoints = "hp01" "hp02" "hp03" "hp04" "hp05" "hp06" "hp07" "hp08" "hp23" "hp24"
+shieldgeneratortargethardpoints = "hp09" "hp10" "hp11" "hp12" "hp13" "hp14" "hp15" "hp16"
+sensorstargethardpoints = "hp01" "hp02" "hp03" "hp04" "hp05" "hp06" "hp07" "hp08" "hp23" "hp24"
+hulltargethardpoints = "hp01" "hp02" "hp03" "hp04" "hp05" "hp06" "hp07" "hp08" "hp23" "hp24"
+criticaltargethardpoints = "hp09" "hp10" "hp11" "hp12" "hp13" "hp14" "hp15" "hp16"
+weapon1iconpos = 70	50
+weapon2iconpos = 75	50
+weapon3iconpos = 85	40
+weapon4iconpos = 85	60
+shipclass = "cruiser"
+shiptype = "C"
+enginesrepairtime = 1.0
+lifesupportrepairtime = 0.25
+weaponsrepairtime = 1.0
+shieldgeneratorrepairtime = 1.0
+sensorsrepairtime = 1.0
+avoidanceclass = 5
+weldingradius = 0.25
+fireball = "x_large_explosion"
+eventselect = "Basic1CruiserSelect"
+eventacknowledge = "Basic1CruiserAcknowledge"
+eventattack = "Basic1CruiserAttack"
+eventstop = "Basic1CruiserStop"
+eventmove = "Basic1CruiserMove"
+eventrepair = "Basic1CruiserRepair"
+classlabel = "craft"
+ainame = "CraftProcess"
+officercost = 0
+shielddelay = 2
+damagedscan = 50.0
+enginescrewloss = 10.0f
+lifesupportcrewloss = 10.0f
+weaponscrewloss = 10.0f
+shieldgeneratorcrewloss = 10.0f
+sensorscrewloss = 5.0f
+lifesupportloss = 2
+engineshitpercent = 7.0f
+lifesupporthitpercent = 7.0f
+weaponshitpercent = 7.0f
+shieldgeneratorhitpercent = 1.0f
+sensorshitpercent = 0
+crewhitpercent = 7.0f
+hullhitpercent = 71.0f
+ship = 1
+has_hitpoints = 1
+has_crew = 1
+transporter = 1
+alert = 1
+show_sw_autonomy = 1
+show_movement_autonomy = 1
+can_explore = 1
+combat = 1
+can_sandd = 1
+buildablebyownerraceonly = 1
+specialenergydisplaymode = 1
+extraweaponhardpoints = "root"
+maxextraweapons = 10
+rangescan = 500
+shieldhit = "shield_dom_hitM"
+shieldhitcritical = "shield_dom_hitcritM"
+shielddown = "shield_dom_down"
+possiblecraftnames = 
+	"1st Division, 1st Ship" "1st Division, 2nd Ship" "1st Division, 3rd Ship" "1st Division, 4th Ship"
+	"1st Division, 5th Ship" "1st Division, 6th Ship" "1st Division, 7th Ship" "1st Division, 8th Ship"
+	"1st Division, 9th Ship" "1st Division, 10th Ship" "1st Division, 11th Ship" "1st Division, 12th Ship"
+	"1st Division, 13th Ship" "1st Division, 14th Ship" "1st Division, 15th Ship" "1st Division, 16th Ship"
+	"1st Division, 17th Ship" "1st Division, 18th Ship" "1st Division, 19th Ship" "1st Division, 20th Ship"
+	"2nd Division, 1st Ship" "2nd Division, 2nd Ship" "2nd Division, 3rd Ship" "2nd Division, 4th Ship"
+	"2nd Division, 5th Ship" "2nd Division, 6th Ship" "2nd Division, 7th Ship" "2nd Division, 8th Ship"
+	"2nd Division, 9th Ship" "2nd Division, 10th Ship" "2nd Division, 11th Ship" "2nd Division, 12th Ship"
+	"2nd Division, 13th Ship" "2nd Division, 14th Ship" "2nd Division, 15th Ship" "2nd Division, 16th Ship"
+	"2nd Division, 17th Ship" "2nd Division, 18th Ship" "2nd Division, 19th Ship" "2nd Division, 20th Ship"
+	"3rd Division, 1st Ship" "3rd Division, 2nd Ship" "3rd Division, 3rd Ship" "3rd Division, 4th Ship"
+	"3rd Division, 5th Ship" "3rd Division, 6th Ship" "3rd Division, 7th Ship" "3rd Division, 8th Ship"
+	"3rd Division, 9th Ship" "3rd Division, 10th Ship" "3rd Division, 11th Ship" "3rd Division, 12th Ship"
+	"3rd Division, 13th Ship" "3rd Division, 14th Ship" "3rd Division, 15th Ship" "3rd Division, 16th Ship"
+	"3rd Division, 17th Ship" "3rd Division, 18th Ship" "3rd Division, 19th Ship" "3rd Division, 20th Ship"
+	"4th Division, 1st Ship" "4th Division, 2nd Ship" "4th Division, 3rd Ship" "4th Division, 4th Ship"
+	"4th Division, 5th Ship" "4th Division, 6th Ship" "4th Division, 7th Ship" "4th Division, 8th Ship"
+	"4th Division, 9th Ship" "4th Division, 10th Ship" "4th Division, 11th Ship" "4th Division, 12th Ship"
+	"4th Division, 13th Ship" "4th Division, 14th Ship" "4th Division, 15th Ship" "4th Division, 16th Ship"
+	"4th Division, 17th Ship" "4th Division, 18th Ship" "4th Division, 19th Ship" "4th Division, 20th Ship"
+	"5th Division, 1st Ship" "5th Division, 2nd Ship" "5th Division, 3rd Ship" "5th Division, 4th Ship"
+	"5th Division, 5th Ship" "5th Division, 6th Ship" "5th Division, 7th Ship" "5th Division, 8th Ship"
+	"5th Division, 9th Ship" "5th Division, 10th Ship" "5th Division, 11th Ship" "5th Division, 12th Ship"
+	"5th Division, 13th Ship" "5th Division, 14th Ship" "5th Division, 15th Ship" "5th Division, 16th Ship"
+	"5th Division, 17th Ship" "5th Division, 18th Ship" "5th Division, 19th Ship" "5th Division, 20th Ship"
+	"6th Division, 1st Ship" "6th Division, 2nd Ship" "6th Division, 3rd Ship" "6th Division, 4th Ship"
+	"6th Division, 5th Ship" "6th Division, 6th Ship" "6th Division, 7th Ship" "6th Division, 8th Ship"
+	"6th Division, 9th Ship" "6th Division, 10th Ship" "6th Division, 11th Ship" "6th Division, 12th Ship"
+	"6th Division, 13th Ship" "6th Division, 14th Ship" "6th Division, 15th Ship" "6th Division, 16th Ship"
+	"6th Division, 17th Ship" "6th Division, 18th Ship" "6th Division, 19th Ship" "6th Division, 20th Ship"
+	"7th Division, 1st Ship" "7th Division, 2nd Ship" "7th Division, 3rd Ship" "7th Division, 4th Ship"
+	"7th Division, 5th Ship" "7th Division, 6th Ship" "7th Division, 7th Ship" "7th Division, 8th Ship"
+	"7th Division, 9th Ship" "7th Division, 10th Ship" "7th Division, 11th Ship" "7th Division, 12th Ship"
+	"7th Division, 13th Ship" "7th Division, 14th Ship" "7th Division, 15th Ship" "7th Division, 16th Ship"
+	"7th Division, 17th Ship" "7th Division, 18th Ship" "7th Division, 19th Ship" "7th Division, 20th Ship"
+	"8th Division, 1st Ship" "8th Division, 2nd Ship" "8th Division, 3rd Ship" "8th Division, 4th Ship"
+	"8th Division, 5th Ship" "8th Division, 6th Ship" "8th Division, 7th Ship" "8th Division, 8th Ship"
+	"8th Division, 9th Ship" "8th Division, 10th Ship" "8th Division, 11th Ship" "8th Division, 12th Ship"
+	"8th Division, 13th Ship" "8th Division, 14th Ship" "8th Division, 15th Ship" "8th Division, 16th Ship"
+	"8th Division, 17th Ship" "8th Division, 18th Ship" "8th Division, 19th Ship" "8th Division, 20th Ship"
+	"9th Division, 1st Ship" "9th Division, 2nd Ship" "9th Division, 3rd Ship" "9th Division, 4th Ship"
+	"9th Division, 5th Ship" "9th Division, 6th Ship" "9th Division, 7th Ship" "9th Division, 8th Ship"
+	"9th Division, 9th Ship" "9th Division, 10th Ship" "9th Division, 11th Ship" "9th Division, 12th Ship"
+	"9th Division, 13th Ship" "9th Division, 14th Ship" "9th Division, 15th Ship" "9th Division, 16th Ship"
+	"9th Division, 17th Ship" "9th Division, 18th Ship" "9th Division, 19th Ship" "9th Division, 20th Ship"
+	"10th Division, 1st Ship" "10th Division, 2nd Ship" "10th Division, 3rd Ship" "10th Division, 4th Ship"
+	"10th Division, 5th Ship" "10th Division, 6th Ship" "10th Division, 7th Ship" "10th Division, 8th Ship"
+	"10th Division, 9th Ship" "10th Division, 10th Ship" "10th Division, 11th Ship" "10th Division, 12th Ship"
+	"10th Division, 13th Ship" "10th Division, 14th Ship" "10th Division, 15th Ship" "10th Division, 16th Ship"
+	"10th Division, 17th Ship" "10th Division, 18th Ship" "10th Division, 19th Ship" "10th Division, 20th Ship"

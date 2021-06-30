@@ -1,0 +1,15 @@
+specialvalue = 25
+specialenergycost = 500
+firemodifier = 1.30
+classlabel = "deathchant"
+damagebase = 0
+damagevariance = 0
+damagethreshold = 0
+shieldcrewmodifier = 0
+hullcrewmodifier = 0
+repairmodifier = 1
+turnmodifier = 1
+damagemodifier = 1
+speedmodifier = 1
+hitmodifier = 1
+ignoreshield = 1

@@ -1,0 +1,7 @@
+classlabel = "shockwavexplode"
+rate = 275
+texture = "wshockwave_alphawhite"
+color = 0.5	0.5	0.5
+radiusfactor = 1.5
+fadefactor = 0.1
+rays = 16

@@ -1,0 +1,15 @@
+specialenergycost = 500
+percentage = 0.03
+classlabel = "PsychonicBlast"
+damagebase = 0
+damagevariance = 0
+damagethreshold = 0
+shieldcrewmodifier = 0
+hullcrewmodifier = 0
+lifespan = 1.0
+shotspeed = 1e6
+sprite = "empty"
+spriteduration = 0
+shotcolor = 227
+radius = 0
+ignoreshield = 1
